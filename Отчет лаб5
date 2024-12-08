@@ -1,0 +1,39 @@
+# Отчет по лабораторной работе №4
+
+### Тема: Работа с Docker
+
+Выполнила:  
+Петрова Мария Валерьевна
+
+Место выполнения работы:  
+Санкт-Петербург
+
+Год:  
+2024
+
+создаем Dockerfile:
+
+![Снимок экрана 2024-11-20 212232](https://github.com/user-attachments/assets/56fba65f-865b-42a3-ba72-caed00d6ec40)
+
+Создаем два контейнера и запускаем их с aafire:
+![Снимок экрана 2024-11-21 154649](https://github.com/user-attachments/assets/1ffdc400-7dc8-44b0-9f9c-c154f914ccd1)
+![Снимок экрана 2024-11-21 154728](https://github.com/user-attachments/assets/b43a8891-b010-4c70-b130-ee6e3ad0106e)
+
+![Снимок экрана 2024-11-21 154800](https://github.com/user-attachments/assets/547a3bca-573f-460f-930c-b95db5ee50d3)
+
+
+
+Создаем сеть с помощью команды docker network create myNetwork,
+добавляем оба котейнера командами docker network connect myNetwork cont1, docker network connect myNetwork cont2
+![Снимок экрана 2024-11-21 155128](https://github.com/user-attachments/assets/3f1b39ce-543e-4d05-bd10-9b54dfb22b90)
+
+Cмотрим настройки сети (docker network inspect myNetwork):
+![Снимок экрана 2024-11-21 155201](https://github.com/user-attachments/assets/2315d8dc-83da-4104-89f0-f6efcd1da3c0)
+
+Проверяем доступ между контейнерами:
+![Снимок экрана 2024-11-21 155234](https://github.com/user-attachments/assets/1c5b750c-a1ad-403f-ad2d-c016b503e673)
+
+![Снимок экрана 2024-11-21 155302](https://github.com/user-attachments/assets/e3425b19-8706-40c2-b505-54a08d36482b)
+
+
+
