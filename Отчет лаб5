@@ -13,7 +13,7 @@
 
 создаем Dockerfile:
 ![Снимок экрана 2024-12-07 151915](https://github.com/user-attachments/assets/433027b8-5db3-4cb2-85cf-4db1dee302bf)
-![Снимок экрана 2024-11-20 212232](https://github.com/user-attachments/assets/56fba65f-865b-42a3-ba72-caed00d6ec40)
+
 
 Создаем два контейнера и запускаем их с aafire:
 ![Снимок экрана 2024-11-21 154649](https://github.com/user-attachments/assets/1ffdc400-7dc8-44b0-9f9c-c154f914ccd1)
